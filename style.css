@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@100;200;300;400;500&family=Square+Peg&display=swap');
+
+* {
+    border-style: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('./images/2.jpg') center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width: 850px) {
+    main {
+        height: 170vh;
+    }
+}
+@media (max-width: 1050px) {
+    main {
+        height: 150vh;
+    }
+}
+@media (min-width: 1050px) {
+    main {
+        height: 100vh;
+    }
+}
+
+
+
+
+.cursive {
+    font-family: 'Caveat', cursive;
+}
+
+.logo {
+    height: 100px;
+}
+
+.fa-bars {
+    color: #006F43;
+}   
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link {
+    color: #006F43;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: white;
+    background-color: #006F43;
+}
+
+
+
+.info {
+    width: 80%;
+    background-color: white;
+    color: #006F43;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+
+.info2 {
+    font-size: 1.2rem;
+}
+
+.info3 {
+    font-size: 1rem;
+}
+
+.afspraak, .covid {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.afspraak input:hover, .covid button:hover {
+    background-color: #70e6b9;
+    color: #006F43;
+}
+
+.afspraak input, .covid button {
+    background-color: #006F43;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.covid button {
+    background-color: #6f002c;
+}
+
+.quote {
+    font-size: 1.6rem;
+    background-color: rgba(0, 111, 67,0.5);
+    color: white;
+    line-height: 0.8;
+    padding: 20px 20px 40px 20px;
+    width: 60%;
+    margin: 20px auto;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+}
+.quote p {
+    position: absolute;
+    right: 25%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    color: #006F43;
+    font-size: 0.8rem;
+    line-height: 0.2;
+    padding: 10px 10px 0 10px;
+    flex-wrap: wrap;
+}
+
+footer > div {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+footer > div > a > i {
+    color: #006F43;
+    padding: 10px 5px;
+}
