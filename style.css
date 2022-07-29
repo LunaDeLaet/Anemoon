@@ -48,6 +48,7 @@ body {
 }
 
 
+/* home */
 
 .info {
     width: 80%;
@@ -132,7 +133,7 @@ body {
     color: white;
 }
 
-
+/* teamleden */
 
 .cards {
     margin: 20px;
@@ -154,7 +155,7 @@ body {
 
 
 
-
+/* footer */
 
 footer {
     position: relative;
