@@ -11,41 +11,12 @@ body {
     background: url('./images/2.jpg') center top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600vh;
+    height: max-content;
 }
 
 
 
-@media (min-width: 400px) {
-    body {
-        height: 490vh;
-    }
-}
-@media (min-width: 500px) {
-    body {
-        height: 450vh;
-    }
-}
-@media (min-width: 600px) {
-    body {
-        height: 400vh;
-    }
-}
-@media (min-width: 750px) {
-    body {
-        height: 350vh;
-    }
-}
-@media (min-width: 950px) {
-    body {
-        height: 330vh;
-    }
-}
-@media (min-width: 1300px) {
-    body {
-        height: 280vh;
-    }
-}
+
 
 
 
@@ -163,6 +134,20 @@ body {
 
 
 
+.cards {
+    margin: 20px;
+}
+.card {
+    position: inline;
+    margin: 20px;
+    color: #006F43;
+    text-decoration: none;
+    padding: 0;
+}
+.card:hover {
+    color: white;
+    background-color: #006F43;
+}
 
 
 
@@ -172,14 +157,15 @@ body {
 
 
 footer {
-    position: fixed;
+    position: relative;
+    margin-top: 50px;
     bottom: 0;
     width: 100%;
     background-color: rgba(255,255,255,0.8);
     color: #006F43;
     font-size: 0.8rem;
     line-height: 0.2;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 10px 10px;
     flex-wrap: wrap;
 }
 
