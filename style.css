@@ -11,24 +11,42 @@ body {
     background: url('./images/2.jpg') center top;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600vh;
 }
 
 
-@media (max-width: 850px) {
-    main {
-        height: 170vh;
+
+@media (min-width: 400px) {
+    body {
+        height: 490vh;
     }
 }
-@media (max-width: 1050px) {
-    main {
-        height: 150vh;
+@media (min-width: 500px) {
+    body {
+        height: 450vh;
     }
 }
-@media (min-width: 1050px) {
-    main {
-        height: 100vh;
+@media (min-width: 600px) {
+    body {
+        height: 400vh;
     }
 }
+@media (min-width: 750px) {
+    body {
+        height: 350vh;
+    }
+}
+@media (min-width: 950px) {
+    body {
+        height: 330vh;
+    }
+}
+@media (min-width: 1300px) {
+    body {
+        height: 280vh;
+    }
+}
+
 
 
 
@@ -67,28 +85,27 @@ body {
     text-align: center;
     margin: 30px auto 0 auto;
     padding: 20px;
-    font-size: 1.6rem;
 }
 
-.info2 {
-    font-size: 1.2rem;
+.info h2 {
+    font-size: 1.5rem;
 }
 
-.info3 {
+.info h3 {
     font-size: 1rem;
 }
 
-.afspraak, .covid {
-    margin: 20px auto;
+.afspraak, .covid, .teams {
+    margin: 10px auto;
     text-align: center;
 }
 
-.afspraak input:hover, .covid button:hover {
+.button:hover {
     background-color: #70e6b9;
     color: #006F43;
 }
 
-.afspraak input, .covid button {
+.afspraak input, .covid button, .button {
     background-color: #006F43;
     color: white;
     border: none;
@@ -98,6 +115,8 @@ body {
 
 .covid button {
     background-color: #6f002c;
+    font-size: 0.8rem;
+    padding: 10px;
 }
 
 .quote {
@@ -107,7 +126,7 @@ body {
     line-height: 0.8;
     padding: 20px 20px 40px 20px;
     width: 60%;
-    margin: 20px auto;
+    margin: 10px auto;
     font-weight: bold;
     border-radius: 50px;
     text-align: center;
@@ -118,6 +137,25 @@ body {
     text-align: center;
 }
 
+
+.info2 {
+    width: 80%;
+    background-color: white;
+    color: #6f002c;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+}
+.teams {
+    margin-top: 20px;
+}
+.team {
+    display: inline;
+    margin: 10px;
+}
+.team .button {
+    background-color: #6f002c;
+    margin-top: 10px;
+}
 
 
 
