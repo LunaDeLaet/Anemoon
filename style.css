@@ -156,6 +156,10 @@ body {
     background-color: #6f002c;
     margin-top: 10px;
 }
+.team .button:hover, .covid .button:hover {
+    background-color: crimson;
+    color: white;
+}
 
 
 
