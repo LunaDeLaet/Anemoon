@@ -144,11 +144,31 @@ body {
     text-decoration: none;
     padding: 0;
 }
-.card:hover {
+
+a:hover {
     color: white;
     background-color: #006F43;
 }
 
+.achtergrond {
+    text-align: left;
+}
+.achtergrond > p > a, .achtergrond > ul > li > a {
+    color: #6f002c;
+    text-decoration: none;
+}
+.achtergrond > p > a:hover, .achtergrond > ul > li > a:hover {
+    background-color: #6f002c;
+    color: white;
+}
+.achtergrond > p {
+    margin: 15px 30px;
+}
+.achtergrond > h5 {
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
 
 
 
