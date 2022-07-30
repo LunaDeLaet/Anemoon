@@ -136,11 +136,10 @@ body {
 /* teamleden */
 
 .cards {
-    margin: 20px;
+    margin: 20px auto;
 }
 .card {
-    position: inline;
-    margin: 20px;
+    margin: 20px auto;
     color: #006F43;
     text-decoration: none;
     padding: 0;
