@@ -47,6 +47,9 @@ body {
     background-color: #006F43;
 }
 
+.bg-light {
+    background-color: white !important;
+}
 
 /* home */
 
@@ -143,6 +146,8 @@ body {
     color: #006F43;
     text-decoration: none;
     padding: 0;
+    box-shadow: 0 0 15px #0b1a14;
+    border: none;
 }
 
 
