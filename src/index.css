@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@100;200;300;400;500&family=Square+Peg&display=swap');
+
+* {
+    border-style: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('./images/2.jpg') center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+}
+
+a {
+    color: #6f002c;
+    text-decoration: none;
+}
+
+
+
+
+
+.cursive {
+    font-family: 'Caveat', cursive;
+}
+
+.logo {
+    height: 100px;
+}
+
+.fa-bars {
+    color: #006F43;
+}   
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link {
+    color: #006F43;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: white;
+    background-color: #006F43;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+/* home */
+
+.info {
+    width: 80%;
+    background-color: white;
+    color: #006F43;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+}
+
+.info h2 {
+    font-size: 1.5rem;
+}
+
+.info h3 {
+    font-size: 1rem;
+}
+
+.afspraak, .covid, .teams {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #70e6b9;
+    color: #006F43;
+}
+
+.afspraak button, .covid button, .button {
+    background-color: #006F43;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.covid button {
+    background-color: #6f002c;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.quote {
+    font-size: 1.6rem;
+    background-color: rgba(0, 111, 67,0.5);
+    color: white;
+    line-height: 0.8;
+    padding: 20px 20px 40px 20px;
+    width: 60%;
+    margin: 10px auto;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+}
+.quote p {
+    position: absolute;
+    right: 25%;
+    text-align: center;
+}
+
+
+.info2 {
+    width: 80%;
+    background-color: white;
+    color: #6f002c;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+}
+.teams {
+    margin-top: 20px;
+}
+.team {
+    display: inline;
+    margin: 10px;
+}
+.team .button {
+    background-color: #6f002c;
+    margin-top: 10px;
+}
+.team .button:hover, .covid .button:hover {
+    background-color: crimson;
+    color: white;
+}
+
+/* teamleden */
+
+.cards {
+    margin: 20px auto;
+}
+.card {
+    margin: 20px auto;
+    color: #006F43;
+    text-decoration: none;
+    padding: 0;
+    box-shadow: 0 0 15px #0b1a14;
+    border: none;
+}
+
+
+a:hover {
+    color: white;
+    background-color: #006F43;
+}
+
+.achtergrond {
+    text-align: left;
+}
+.achtergrond > p > a, .achtergrond > ul > li > a {
+    color: #6f002c;
+    text-decoration: none;
+}
+.achtergrond > p > a:hover, .achtergrond > ul > li > a:hover {
+    background-color: #6f002c;
+    color: white;
+}
+.achtergrond > p {
+    margin-left: 30px;
+}
+.achtergrond > h5 {
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.achtergrond > h6 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+.achtergrond > h7 {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    position: relative;
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    color: #006F43;
+    font-size: 0.8rem;
+    line-height: 0.2;
+    padding: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+
+footer > div {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+footer > div > a > i {
+    color: #006F43;
+    padding: 10px 5px;
+}
