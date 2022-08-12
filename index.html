@@ -1,124 +1,211 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anemoon groepspraktijk</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars fa-2xl"></i>
-            </button>
-            <a class="navbar-brand" href="#"><img class="logo" src="./images/logo.png" alt="Anemoon"></a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Welkom</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="teamleden.html">Teamleden</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="onderzoek.html">Psychodiagnostisch Onderzoek</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="therapie.html">Therapie/begeleiding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tarieven.html">Tarieven</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars fa-2xl"></i>
+          </button>
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="./images/logo.png" alt="Anemoon"
+          /></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Welkom</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="teamleden.html">Teamleden</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="onderzoek.html"
+                  >Psychodiagnostisch Onderzoek</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="therapie.html"
+                  >Therapie/begeleiding</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tarieven.html">Tarieven</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-            <div class="info">
-                <h1>Anemoon multidisciplinair psychodiagnostisch & therapiecentrum</h1>
-                <h2>Kinder- en jeugdpsychiatrie, therapie & coaching</h2>
-                <h3>Wilrijk/Antwerpen</h3>
-            </div>
+      <div class="info">
+        <h1>Anemoon multidisciplinair psychodiagnostisch & therapiecentrum</h1>
+        <h2>Kinder- en jeugdpsychiatrie, therapie & coaching</h2>
+        <h3>Wilrijk/Antwerpen</h3>
+      </div>
 
-            <form class="afspraak" action="contact.html">
-                <input class="button" type="submit" value="Maak een afspraak" />
-            </form>
+      <form class="afspraak" action="contact.html">
+        <input class="button" type="submit" value="Maak een afspraak" />
+      </form>
 
-            <div class="quote cursive">
-                <blockquote>"Als je vertrouwen hebt, hoef je niet de gehele trap te zien om de eerste stap te zetten"</blockquote>
-                <p>Martin Luther King</p>
-            </div>  
-            <form class="covid" action="contact.html">
-                <button class="button"type="submit"><i class="fa-solid fa-virus-covid-slash"></i> Onze covid-19 maatregelingen</button>
-            </form>
+      <div class="quote cursive">
+        <blockquote>
+          "Als je vertrouwen hebt, hoef je niet de gehele trap te zien om de
+          eerste stap te zetten"
+        </blockquote>
+        <p>Martin Luther King</p>
+      </div>
+      <form class="covid" action="contact.html">
+        <button class="button" type="submit">
+          <i class="fa-solid fa-virus-covid-slash"></i> Onze covid-19
+          maatregelingen
+        </button>
+      </form>
 
-            <div class="info2">
-                <h2>Onze visie & missie:</h2>
-                <p>Ons multidisciplinair team benadert het kind/de jongere en volwassene graag in al zijn aspecten. Naast het stellen van een multidisciplinair diagnose is het bieden van zorg op maat onze belangrijkste doelstelling.</p>
-                <h2>Ons multidisciplinair team bestaat uit:</h2>
-                <ul>
-                    <li>Kinder- en jeugdpsychiater</li>
-                    <li>Klinisch psychologen, psychologisch consulenten, orthopedagogen</li>
-                    <li>Psychotherapeuten; o.a. EMDR therapeuten, CGT'en, mindfulness & ACT therapeut, hypnosetherpeut,...</li>
-                    <li>Coachen en counselors; o.a. studiecoach, auticoach, HSP coach, Life coach, kindercoach, hartcoherentie coach, rots en water trainer, loopbaancoach, mental coach, sport en motivatiecoach, stress & burnout coach, cogmed werkgeheugen trainer/coach, leerkracht typ 10, ...</li>
-                    <li>Kinesist, osteopaat</li>
-                    <li>Diëtiste</li>
-                </ul>
-                <h2>In ons centrum hebben we subteams die gespecialiseerd zijn rond:</h2>
-                <ul>
-                    <li>(Psycho)diagnostiek onderzoeken: o.a. Autisme/ASS, ADHD/ADD/aandachtonderzoek, intelligentie/IQ onderzoek, psychomotoriek onderzoek, belevingsonderzoek,....</li>
-                    <li>Ontwikkelingsstoornissen o.a. Autisme/Autisme sprectrum stoornis (ASS), Attention deficit hyperactivity disorder (ADHD), Ticstoornis/Gilles de la Tourette, </li>
-                    <li>Developmental Coordination Disorder (DCD)/coördinatie- ontwikkelingsstoornis, leerstoornissen,...,</li>
-                    <li>Posttraumatische stressstoornis (PTSS)</li>
-                    <li>Eetstoorissen zoals Anorexia Nervosa (AN), Boulimia nervosa (BN),...</li>
-                    <li>(Groeps)trainingen</li>
-                    <li>Gezinsbegeleiding</li>
-                    <li>Taalkampen</li>
-                    <li>Cogmed werkgeheugentraining</li>
-                    <li>Hertcoherentie</li>
-                    <li>Rots en water training</li>
-                    <li>...</li>
-                </ul>
-                <div class="teams">
-                    <form class="team" action="team-wilrijk.html">
-                        <button class="button" type="submit"> Team Anemoon</button>
-                    </form>
-                    <form class="team" action="gespecialiseerde-subteams.html">
-                        <button class="button" type="submit"> Gespecialiseerde subteams</button>
-                    </form>
-                </div>
-            </div>
+      <div class="info2">
+        <h2>Onze visie & missie:</h2>
+        <p>
+          Ons multidisciplinair team benadert het kind/de jongere en volwassene
+          graag in al zijn aspecten. Naast het stellen van een multidisciplinair
+          diagnose is het bieden van zorg op maat onze belangrijkste
+          doelstelling.
+        </p>
+        <h2>Ons multidisciplinair team bestaat uit:</h2>
+        <ul>
+          <li>Kinder- en jeugdpsychiater</li>
+          <li>
+            Klinisch psychologen, psychologisch consulenten, orthopedagogen
+          </li>
+          <li>
+            Psychotherapeuten; o.a. EMDR therapeuten, CGT'en, mindfulness & ACT
+            therapeut, hypnosetherpeut,...
+          </li>
+          <li>
+            Coachen en counselors; o.a. studiecoach, auticoach, HSP coach, Life
+            coach, kindercoach, hartcoherentie coach, rots en water trainer,
+            loopbaancoach, mental coach, sport en motivatiecoach, stress &
+            burnout coach, cogmed werkgeheugen trainer/coach, leerkracht typ 10,
+            ...
+          </li>
+          <li>Kinesist, osteopaat</li>
+          <li>Diëtiste</li>
+        </ul>
+        <h2>
+          In ons centrum hebben we subteams die gespecialiseerd zijn rond:
+        </h2>
+        <ul>
+          <li>
+            (Psycho)diagnostiek onderzoeken: o.a. Autisme/ASS,
+            ADHD/ADD/aandachtonderzoek, intelligentie/IQ onderzoek,
+            psychomotoriek onderzoek, belevingsonderzoek,....
+          </li>
+          <li>
+            Ontwikkelingsstoornissen o.a. Autisme/Autisme sprectrum stoornis
+            (ASS), Attention deficit hyperactivity disorder (ADHD),
+            Ticstoornis/Gilles de la Tourette,
+          </li>
+          <li>
+            Developmental Coordination Disorder (DCD)/coördinatie-
+            ontwikkelingsstoornis, leerstoornissen,...,
+          </li>
+          <li>Posttraumatische stressstoornis (PTSS)</li>
+          <li>
+            Eetstoorissen zoals Anorexia Nervosa (AN), Boulimia nervosa (BN),...
+          </li>
+          <li>(Groeps)trainingen</li>
+          <li>Gezinsbegeleiding</li>
+          <li>Taalkampen</li>
+          <li>Cogmed werkgeheugentraining</li>
+          <li>Hertcoherentie</li>
+          <li>Rots en water training</li>
+          <li>...</li>
+        </ul>
+        <div class="teams">
+          <form class="team" action="team-wilrijk.html">
+            <button class="button" type="submit">Team Anemoon</button>
+          </form>
+          <form class="team" action="gespecialiseerde-subteams.html">
+            <button class="button" type="submit">
+              Gespecialiseerde subteams
+            </button>
+          </form>
+        </div>
+      </div>
 
-            <div class="info">
-                <p>Anemoon groepspraktijk Wilrijk bevindt zich in Prins Boudewijnlaan 347, 2610 Wilrijk.
-                    <br>Het is gelegen op de grens met Edegem, Berchem Duffel en Rumst, en is op slechts enkele kilometers verder van  Antwerpen centrum, Mortsel, Boom, Lier, Boechout en Mechelen.</p>
-            </div>
+      <div class="info">
+        <p>
+          Anemoon groepspraktijk Wilrijk bevindt zich in Prins Boudewijnlaan
+          347, 2610 Wilrijk. <br />Het is gelegen op de grens met Edegem,
+          Berchem Duffel en Rumst, en is op slechts enkele kilometers verder van
+          Antwerpen centrum, Mortsel, Boom, Lier, Boechout en Mechelen.
+        </p>
+      </div>
     </main>
 
     <footer>
-        <p>Groepspraktijk Anemoon Wilrijk</p>  
-           <p><i class="fa-solid fa-location-dot"></i>  Prins Boudewijnlaan 347, 2610 Wilrijk</p>
-        <p><i class="fa-solid fa-envelope"></i><a href="mailto:info@groepspraktijkanemoon.be"> info@groepspraktijkanemoon.be</a></p>
-        <p><i class="fa-solid fa-phone"></i> 0485-730190 (tussen 9-9.30u bereikbaar)</p>
-        <div>
-            <a href="https://facebook.com/groepspraktijkanemoon.be/"><i class="fa-brands fa-facebook fa-3x"></i></a>
-            <a href="https://instagram.com/anemoon_groepspraktijk"><i class="fa-brands fa-instagram fa-3x"></i></a>
-        </div> 
+      <p>Groepspraktijk Anemoon Wilrijk</p>
+      <p>
+        <i class="fa-solid fa-location-dot"></i> Prins Boudewijnlaan 347, 2610
+        Wilrijk
+      </p>
+      <p>
+        <i class="fa-solid fa-envelope"></i
+        ><a class="link" href="mailto:info@groepspraktijkanemoon.be">
+          info@groepspraktijkanemoon.be</a
+        >
+      </p>
+      <p>
+        <i class="fa-solid fa-phone"></i> 0485-730190 (tussen 9-9.30u
+        bereikbaar)
+      </p>
+      <div>
+        <a href="https://facebook.com/groepspraktijkanemoon.be/"
+          ><i class="fa-brands fa-facebook fa-3x"></i
+        ></a>
+        <a href="https://instagram.com/anemoon_groepspraktijk"
+          ><i class="fa-brands fa-instagram fa-3x"></i
+        ></a>
+      </div>
     </footer>
 
-
     <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
