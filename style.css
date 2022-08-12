@@ -54,6 +54,7 @@ a {
   color: #6f002c !important;
 }
 .fa-brands:hover,
+footer > p > a:hover,
 .link:hover {
   background-color: #6f002c !important;
   color: white !important;
